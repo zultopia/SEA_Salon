@@ -1,0 +1,57 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    transition: box-shadow 0.3s ease-in-out; /* Transisi untuk efek bayangan */
+}
+
+.footer:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    margin: 5px 0;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.footer-column h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}

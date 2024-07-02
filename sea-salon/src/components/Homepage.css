@@ -1,0 +1,11 @@
+.homepage {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+  }  
+  
+.homepage-content {
+    margin-bottom: 40px; 
+  }
